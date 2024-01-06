@@ -1,0 +1,103 @@
+---
+date: "2021-08-25"
+diagram: false
+image: 
+  caption: ''
+  placement: 3
+  preview_only: true
+math: true
+tags:
+- Supreme Court of India
+- Judicial Appointments
+- Transparency
+title: Determining the Criteria for Appointment of Judges to the Supreme Court of India
+Summary: I review literature attempting to determine the criteria for appointment of judges to the Supreme Court of India. I show that these studies are limited by data-sources including especially the lack of data about the potential candidate pool for Supreme Court appointments. I show that the court itself has been lax in making the process transparent, and published collegium meeting resolutions have gradually become more sparse and less informative over time. Starting as detailed resolutions with candidate information, these resolutions are now mere statements with just the names of recommended candidates.  
+
+---
+On 17th August 2021, the collegium [recommended the names of 9 new judges](https://main.sci.gov.in/pdf/Collegium/18082021_133400.pdf) for the Supreme Court of India (SCI) to the government. Many [hailed the recommendation](https://www.jurist.org/news/2021/08/india-dispatches-3-women-recommended-for-elevation-to-indias-supreme-court/), which proposes the name of 3 women judges, as a historic step towards gender equality in the Court. Others have criticized the decision for not including the name of Chief Justice Akil Kureshi, alleging that the [collegium had given in to government pressure](https://www.thequint.com/voices/opinion/justice-kureshis-exclusion-from-sc-collegium-list-sends-a-message-be-afraid). Both camps, however, were basing their conclusions on conjecture. We neither *know* whether the court had gender in mind while selecting the list nor do we *know* whether Justice Kureshi was not selected due to government pressure. Since the SCI collegium does not give public reasons for its recommendations, [we simply do not know](https://www.epw.in/engage/article/collegium-system-indian-judiciary-needs-be) the criteria that the SCI uses to appoint judges. 
+
+## Existing Studies and Counterfactual Problems
+
+There have been several attempts at understanding the criteria for judicial appointments. For example, [Gadbois](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198070610.001.0001/acprof-9780198070610), through extensive interviews with Judges and their families, was the first person to be able to construct short biographies of Judges in the SCI from 1950-1989. Using these, Gadbois showed that while the official criteria for the appointment of SCI judges was broad, the average SCI judge was likely to be selected based on region, experience, and socio-economic characteristics. Gadbois described [an archetypal Judge](https://drive.google.com/file/d/1UHd-QDsamNYjXQS7VL7orzw1imptThad/view?usp=sharing) in the SCI as a upper-class Hindu Brahmin who had served as a former High Court Chief Justice. Expanding Gadbois’ study to Judges appointed till 2013, [Chandrachud](https://www.google.co.in/books/edition/The_Informal_Constitution/UqkPEAAAQBAJ?hl=en&gbpv=1&dq=chandrachud+informal+constitution&pg=PT7&printsec=frontcover) also attempted to map the informal factors which affect the appointment of judges.  Through the use of both public biographies of judges as well as interviews, Chandrachud argues that the most important criteria for appointment as a SCI judge was their experience as a High Court judge as well as the regional diversity of the SCI. The more senior a high court judge and the less represented their parent high court on the SCI, the higher the chance of elevation.  
+
+Recent work has reiterated the sailence of these criteria. In their recent article, [Chandra, Hubbard and Kalantry](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3417259) show that the advent of the collegium system led to a very little change in the biographical characteristics of judges appointed to the SCI. The only noticeable change is that post-collegium SCI judges are more likely to be from private practice and spend more time as high court judges than judges appointed before the advent of the collegium system. [Kumar](https://www.epw.in/journal/2020/16/law-and-society/mapping-appointments-and-tenures-supreme-court.html) also posits that the SCI prefers people who practiced for some time rather than those who served in the lower judiciary. [Fayiz]((https://roundtableindia.co.in/index.php?option=com_content&view=article&id=9623:caste-and-judiciary-looking-for-dalit-and-adivasi-judges-in-supreme-court-of-india&catid=119:feature&Itemid=132) ) and [Saxena](https://www.barandbench.com/columns/disproportionate-representation-supreme-court-caste-and-religion-of-judges) argue that the court mostly appoints Hindu Upper Caste judges.
+
+Apart from the Gadbois' interviews, these studies rely on public biographies of the judges [available on the SCI website](https://main.sci.gov.in/chief-justice-judges). Yet, as [Tripathy & Bagga](https://ijcl.nalsar.ac.in/wp-content/uploads/2020/08/9IndianJConstL92_TripathyBagga.pdf) demonstrate these official biographies are often incomplete and lack crucial socio-economic information about the judges. Even assuming that these biographies were complete, there is an inherent limitation to the use of biographical information of appointed judges to infer the criteria that was used to appoint them. Unfortunately, we do not know whether the things we *happen* to observe in the biography of SCI judges are related to their appointment. Take, for instance, the case of a hypothetical Judge A, whose parent high court is Allahabad High Court, the largest high court in India. Let us assume the SCI, which has no judges from the Allahabad High Court, appoints Judge A. Can we conclude that Judge A was appointed due to her parent high court? No. Judge A may have been chosen because she was perceived to be a good judge or because she was simply the senior most judge in the [all india high court roster](https://en.wikipedia.org/wiki/List_of_sitting_judges_of_High_Courts_of_India). 
+
+This is known as the [counterfactual difficulty](https://plato.stanford.edu/entries/causation-counterfactual/) of causal inference. Without knowing the counterfactual-- in this case whether Judge A would have still been appointed had she not been a part of Allahabad high court-- we cannot make conclusions about the role of the parent high court in the appointment process. In most cases, it is impossible to study a counterfactual in real world settings- after all we cannot go back in time and assign Judge A to another high court. One approximation method that we use often in social science to mimic this process is called [Matching]("https://en.wikipedia.org/wiki/Matching_(statistics)").  In matching, we try to find Judge A's twin, say Judge B, who is similar to Judge A in all respects, except the parent High court. Let us assume now, that Judge A was appointed and Judge B was not. In this case, since the parent high court was the only difference between the two judges we can conclude that it is a criteria for appointments to the SCI. Let us for the moment ignore the extremely difficult empirical problem of finding a “similar” non-appointed counterpart to all the judges in the SCI. What should be apparent is that to even theoretically attempt this exercise, we need not only the biographical characteristics of all judges of the SCI who were appointed but also the biographical characteristics of all candidates who were not appointed. If we assume all candidates are high court judges, to truly understand the appointment process, we would need the biographical characteristics of all high court judges.[^1]
+
+## Collegium Resolutions 
+
+There is ofcourse, another simpler way of knowing the criteria for appointment of judges--simply asking the people who select the judges.[^2] In the case of the SCI, this is the Chief Justice and after 1993, the collegium. Till now however, the Gadbois interviews remain the only place where we have judges commenting on the appointment process. Even this is mostly anecdotal and limited to particular judges. Beyond the rhetoric of seniority and merit, Chief Justices have remained silent on the general criteria they use for selecting judges in the higher judiciary. This is why the publication of collegium resolutions was an extremely important development in our understanding of the judiciary. On October 3rd, 2017, the Supreme Court Collegium in a historic move [resolved](https://main.sci.gov.in/pdf/collegium/2017.10.03-Minutes-Transparency.pdf) that the reasons for its decisions on the appointment of Judges will be uploaded to the [Supreme Court's Website](https://main.sci.gov.in/collegium-resolutions).The resolution then was seen as a [break from the past](https://www.epw.in/journal/2017/42-43/law-and-society/two-small-steps-towards-transparency.html) which would [“maintain and enhance public confidence in the integrity and impartiality”](https://www.newindianexpress.com/opinions/columns/soli-j-sorabjee/2017/oct/08/supreme-court-scores-on-public-trust-with-its-transparency-step-1668355.html).
+
+
+```{r pressure, include=F}
+rm(list = ls())
+#WVS
+library(tidyverse)
+library(lubridate)
+library(readr)
+library(Amelia)
+library(reshape2)
+library(ggpubr)
+library(RColorBrewer)
+data <- read_csv("Collegeum Recommendations - High Courts.csv")
+```
+
+These public resolutions marked the first time that the SCI gave public reasons for its appointment decisions. They were not verbatim minutes of the collegium meetings, but were still very revealing. In the [first of its resolutions](https://main.sci.gov.in/pdf/collegium/2017.10.03-Madras-6%20JOs.pdf), for example, the court listed several criteria which it used for the appointment of high court judges. For judges appointed to the high court from the bench, the main criteria was seniority and the report of the judgement committee about their lower court judgments. For judges appointed from the bar, there was an objective criteria for age and income. In both cases, the judges took into account the reports of the Information Bureau on the integrity and professional image of the candidate. In some cases, the candidate was called for an interview. What was even more interesting was that the court gave the list of all potential candidates suggested by the High Court as well as specific reasons for why a candidate was rejected. These criteria may not have been exhaustive, but still allowed [public engagement with the appointment process](https://www.thehindu.com/opinion/lead/collegium-and-transparency/article19956961.ece). 
+
+The resolutions for the Supreme Court appointments were unfortunately not as detailed. The only clear criteria expressly considered for SCI appointment was the all-india seniority rank of the judge as well the parent high court. Other than this the resolutions simply stated that the collegium had simply stated that it had taken into consideration "all relevant factors". The SC appointment resolutions also did not contain information about the candidates considered and rejected.
+
+The publication of these detailed resolutions, however, did not last long. Soon after the resolutions started being published, [letters from Justice Lokur and Justice Joseph](https://www.barandbench.com/news/lokur-joseph-collegium-resolutions), two members of the collegium, were leaked to the press. Justice Joseph’s letter expressed concern about listing specific reasons for the rejecting candidates, arguing that the information may “violate human rights of some persons”. After this leak and presumably after discussions with collegium members, the uploaded resolutions stopped containing specific reasons for the rejection of particular candidates. When a candidate was to be rejected, the resolutions now simply stated they were rejected due to “material available on record”. 
+
+
+```{r , include=F}
+
+ggplot_missing <- function(x){
+  
+  x %>% 
+    is.na %>%
+    melt %>%
+    ggplot(data = .,
+           aes(x = Var2,
+               y = Var1)) +
+    geom_raster(aes(fill = value)) +
+    scale_fill_brewer(name = "", palette = "PRGn",
+                    labels = c("Present","Missing")) +
+    theme_minimal() + 
+    theme(axis.text.x  = element_text(angle=90, vjust=0.5)) + 
+    labs(x = "Variables in Dataset",
+         y = "Recommendation Number")
+}
+```
+```{r , include=F}
+data$date <- mdy(data$Date)
+data2 <- data %>% group_by(date) %>% slice(1) %>% ungroup()
+data2 <- data2 %>% mutate(na = rowSums(is.na(.)))
+data2$number <- 25-data2$na
+
+
+
+```
+```{r, echo=F, warning=F,message = FALSE, fig.align='center', fig.cap='Missingness Map of SCI collegium Resolutions for Appointment of High Court Judges'}
+ggplot_missing(data) + coord_flip()
+
+```
+To understand the criteria discussed in each of these resolutions, I built a dataset of all collegium resolutions till April 2020[^3]. Figure 1 maps changes in the criteria and information given in all collegium resolutions for the appointment of High Court judges. As can be seen, the court gradually stopped giving us information about selection criteria and eventually stopped giving information about each individual candidate altogether. Figure 2 shows the the decline in the number of information points available in each resolution. Within a span of 2 years, the moved from a high of giving 25 information points in each resolution to a low of only 5. The final blow to these detailed resolutions came when a particular collegium decision to transfer Chief Justice Tahilramani and Justice Akil Kureshi [was discussed and critiqued in the media](https://www.thehindu.com/opinion/op-ed/justice-tahilramani-an-arbitrary-transfer-a-graceful-resignation/article29368826.ece). The resolution stated that the transfer was required, [“in the interest of better administration of justice](https://main.sci.gov.in/pdf/Collegium/1.%202019.08.28-Tr.-CJ%20VK%20Tahilramani.pdf), a phrase that had also been used in all prior resolutions recommending transfers. After the heightened media scrutiny questioning the reasons for the transfer, the court released a statement, stating that the decision was made due to [“cogent reasons”](https://main.sci.gov.in/pdf/Collegium/Statement_12092019.pdf) and [“it would not be in the interest of the institution to disclose the reasons for transfer”](https://main.sci.gov.in/pdf/Collegium/Statement_12092019.pdf). Since then the court has chosen to publish only [“statements” instead of resolutions](https://www.barandbench.com/news/from-resolutions-to-statements-supreme-court-collegium-publishes-appointment-details-without-reasons), which now only have the names of recommended candidates.  It would seem then that the increased public scrutiny and criticism of its decisions, forced the court to revisit its initial move towards transparency. Whenever the court faced a public challenge to its appointment decisions, its response has been to hide how that decision was made. This, as Kumar puts it, [“ smacks of institutional cowardice”](https://www.firstpost.com/india/supreme-court-stops-uploading-collegium-resolutions-on-website-move-is-major-self-inflicted-wound-smacks-of-institutional-cowardice-7536991.html).
+
+
+```{r, echo=F, warning=F,message = FALSE, fig.align='center', fig.cap='Number of Information Points  in SCI collegium Resolutions for Appointment of High Court Judges '}
+ggscatter(data2,x="date",y="number",color = "Title", point.color ="Title", xlab = "Date of Resolution", ylab="Number of Information Points") + geom_vline(aes(xintercept= ymd("2017-12-20"))) + geom_smooth()+
+geom_label(aes(ymd("2017-12-20"), 5), label = "Justice Lokurs Letter", show.legend = FALSE)+ geom_vline(aes(xintercept= ymd("2019-09-12"))) + 
+  geom_label(aes(ymd("2019-09-12"), 20), label = "Justice Tahilaramani Press Release", show.legend = FALSE)
+
+
+```
+
+Bickel in his famous book [The Least Dangerous Branch](https://www.degruyter.com/document/doi/10.12987/9780300173338/html) coined the term “the counter-majoritarian difficulty” to describe the fact that in the U.S, an unelected judiciary reviews legislation from the popular branch of government. The counter-majoritarian difficulty is even more pronounced in the SCI- which is the only case in the world where the judiciary appoints its own members and also does not publicly disclose how it makes these appointments. The judges in the Indian higher judiciary are thus not only unelected but also cliquish. Given the central place of the court in deciding the country's polity, the court's opacity should be particularly concerning.   
+
+[^1]: As far as I know, [Justice Hub's Summer of Data program](https://justicehub.in/events) is attempting to do this. This is difficult, since public data sources of High Court Judges biographies are extremely sparse. 
+[^2]: The assumption here is that the judges will be sincere in revealing such criteria. We, however, know that judges have strategic incentives to reveal the most uncontroversial criteria.
+[^3]: I thank Gauri Balagopal, Tanvi Raina, Sanjitha Umapathy for their assistance in the creation of this dataset.
+
+
