@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Depletion | Rahul Hemrajani</title>
+    <link>http://rahul.uofsccreate.org/tag/depletion/</link>
+      <atom:link href="http://rahul.uofsccreate.org/tag/depletion/index.xml" rel="self" type="application/rss+xml" />
+    <description>Depletion</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Rahul Hemrajani</copyright><lastBuildDate>Tue, 03 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://rahul.uofsccreate.org/media/icon_hua4eb1ffa662c5bc0224b00a03de6025c_50829_512x512_fill_lanczos_center_3.png</url>
+      <title>Depletion</title>
+      <link>http://rahul.uofsccreate.org/tag/depletion/</link>
+    </image>
+    
+    <item>
+      <title>Does fatigue affect decision-making and efficiency at the Supreme Court of India?</title>
+      <link>http://rahul.uofsccreate.org/post/judges-lunch/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://rahul.uofsccreate.org/post/judges-lunch/</guid>
+      <description>
+&lt;script src=&#34;http://rahul.uofsccreate.org/post/judges-lunch/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;One of the most famous studies in judicial politics is &lt;a href=&#34;https://doi.org/10.1073/pnas.1018033108&#34;&gt;Danziger, Levav, and Avnaim-Pesso’s work&lt;/a&gt; on the Israeli Parole board. The study concluded that food breaks affected the way that Israeli judges granted parole. Specifically, it found that the rate of granting parole drops gradually from 65% to nearly 0% for each session of the court and returns to 65% after the judges have had their break. The study suggests that this decrease can be attributed to either altered mood or mental depletion, with judges who were getting more tired and hungry taking the status quo option of not granting parole. The study has been challenged inter-alia for &lt;a href=&#34;https://doi.org/10.1073/pnas.1110910108&#34;&gt;selection bias&lt;/a&gt; and &lt;a href=&#34;https://www.sas.upenn.edu/~baron/journal/16/16823/jdm16823.pdf&#34;&gt;overestimating effect sizes&lt;/a&gt; but remains highly influential.&lt;/p&gt;
+&lt;p&gt;Due to the sheer workload of cases, judges at the Indian Judiciary are even more likely to suffer from fatigue. &lt;a href=&#34;https://thediplomat.com/2016/04/30-million-pending-cases-fixing-indias-overburdened-judiciary/&#34;&gt;According to a former Chief Justice of India&lt;/a&gt;, an Indian judge dealt with an average of 2600 cases in a year, compared to an average of 81 cases by American judges. Even in the Supreme Court of India, the highest court of the country, each panel hears an average of 46 cases for admission on miscellaneous days and 18 cases on regular days. If the theory of depletion is correct, we should particularly see the effect of fatigue in the decision-making of such high workload courts. In this note, I examine the effect of case fatigue on efficiency and decision-making at the Supreme court of India(SCI).&lt;/p&gt;
+&lt;div id=&#34;methods&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Methods&lt;/h2&gt;
+&lt;p&gt;To do this, I use the &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3417761&#34;&gt;Supreme Court Hearing Time Dataset&lt;/a&gt;, that I created along with Himanshu Agarwal. The dataset contains information about the hearing time of each case heard by the SCI between 20th January, 2016 till 5th December, 2016. To ensure homogeneity in case-type and to restrict the data-set to a manageable sample, I only look at Special Leave Petitions, the most common case-type in the SCI. This gives us a sample size of 23335 hearings. For each of these hearings, I downloaded the order of the court from the Supreme Court of India Website. Through a computer script, I classified the “winner” in each of these orders. All cases where notice was issued, leave granted, stay granted or appeal allowed were classified as petitioner wins.&lt;/p&gt;
+&lt;p&gt;As a measure of fatigue, I count the number of minutes that have passed from when the court convened till when the court heard a particular case. For example, if the court heard a case at 10:45 AM, 15 minutes after it convened at 10:30 AM, the number of minutes would be coded as 15. Unfortunately, for reasons related to the way the data was collected, we do not have the data for breaks including lunch breaks during the day. As a measure of fatigue, I use the amount of time that the court took for each individual hearing. The intuition here is that as the day goes on, the court needs to listen to more oral arguments in order to make their decision in any individual case&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Finally, as a measure of decision-making, I look at who was the winner in the individual hearing.&lt;/p&gt;
+&lt;p&gt;The assumption that we have to make is that the distribution of cases within a day is random or atleast exogenous to the time allocated to the case and the winner of the case. However, the cause -list is arranged in a way that cases which are being heard for the first time, for admission, are heard first, followed by cases which have been listed before. Presumably, hearings at the notice stage(first hearing) take lesser oral hearing time than hearings at the leave stage, which in turn take even lesser oral hearing time than hearings that occur after the court has granted leave to appeal. To account for this, I control for the stage of hearing through a variable which measures the number of times the case has been heard before. The SCI lists all admission matters for oral hearing on Mondays and Fridays. These are called “miscellaneous days”. Once cases are admitted, they are listed on Tuesdays, Wednesdays and Thursdays. These are called “regular days”. To account for this, I control for the day of the week. Assuming that there is no &lt;em&gt;other&lt;/em&gt; systematic bias in the way that the cases are listed throughout the day, we can use regression methods to examine how fatigue affects the court&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;results&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-3&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;http://rahul.uofsccreate.org/post/judges-lunch/index_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;Oral Hearing Time in Miscellenous Days&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Oral Hearing Time in Miscellenous Days
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;I find that oral hearing time allocated to a case is positively related to the time at which the case was heard (Table 1). As Figure 1 shows, average hearing time on miscellaneous days increases as the day goes on. It would seem then that as more cases are heard, the court becomes less efficient and takes more time to decide each individual case. As the marginal effects plot(Figure 2) shows,based on my model, a case heard when the court convenes at 10:30 am takes around 5 minutes of hearing time, while a case at the same stage of hearing at 4:00 pm takes 12 minutes, a 140% increase.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-4&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;http://rahul.uofsccreate.org/post/judges-lunch/index_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Marginal Effect of Time of the Day on Hearing Time&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Marginal Effect of Time of the Day on Hearing Time
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;On the other hand, I find no evidence that decision making is affected by fatigue (Table 1). There is no statistically significant relationship between the time the case is heard and the winner of the case. As Figure 3 shows, the running average of a SLP succeeding in SC remains constant at around 31% at all times of the day on a miscellaneous day. I thus find no evidence that the SCI are more likely to choose the status quo option and dismiss petitions when they are tired.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-5&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;http://rahul.uofsccreate.org/post/judges-lunch/index_files/figure-html/unnamed-chunk-5-1.png&#34; alt=&#34;Average Probability of Win on Miscellenous Days&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: Average Probability of Win on Miscellenous Days
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;These results change when I use an alternative measure of time of the day. Let us assume a cutoff for lunch at 1:30 PM. We can then measure the total time that has passed in each session. As an example, this measure would be 15 at both 10:45 AM and 1:45 PM. Regressing this measure with win probability leads to significant results, but in the opposite direction of our prediction(Table 1). It would seem that the court is more likely to reject petitions at the start of a session than the end of the session. Oral hearing time also increases as the session goes on. These results are not robust- particularly since our selection of the lunch cut-off time is entirely arbitrary– but lunch breaks do seem to matter in some way.&lt;/p&gt;
+&lt;table style=&#34;text-align:center&#34;&gt;
+&lt;caption&gt;
+&lt;strong&gt;Table 1: Regression Models Predicting Variation in Hearing Time and Win Rates by Time of the Day&lt;/strong&gt;
+&lt;/caption&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;6&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td colspan=&#34;5&#34;&gt;
+&lt;em&gt;Dependent variable:&lt;/em&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td colspan=&#34;5&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Time heard
+&lt;/td&gt;
+&lt;td colspan=&#34;2&#34;&gt;
+Petitioner Winner
+&lt;/td&gt;
+&lt;td&gt;
+Time heard
+&lt;/td&gt;
+&lt;td&gt;
+Petitioner Winner
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;em&gt;Poisson&lt;/em&gt;
+&lt;/td&gt;
+&lt;td colspan=&#34;2&#34;&gt;
+&lt;em&gt;logistic&lt;/em&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;em&gt;Poisson&lt;/em&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;em&gt;logistic&lt;/em&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+(1)
+&lt;/td&gt;
+&lt;td&gt;
+(2)
+&lt;/td&gt;
+&lt;td&gt;
+(3)
+&lt;/td&gt;
+&lt;td&gt;
+(4)
+&lt;/td&gt;
+&lt;td&gt;
+(5)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;6&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Time of the day(hours)
+&lt;/td&gt;
+&lt;td&gt;
+0.228&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+0.025
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+(0.0003)
+&lt;/td&gt;
+&lt;td&gt;
+(0.023)
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Time since last break(hours)
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+0.097&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+(0.035)
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Tuesday
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+0.848&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+-0.144&lt;sup&gt;**&lt;/sup&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+(0.001)
+&lt;/td&gt;
+&lt;td&gt;
+(0.069)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Wednesday
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+0.657&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+0.300&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+(0.001)
+&lt;/td&gt;
+&lt;td&gt;
+(0.078)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Thursday
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+1.085&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+-0.073
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+(0.002)
+&lt;/td&gt;
+&lt;td&gt;
+(0.126)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Friday
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+-0.280&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+-0.053
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+(0.001)
+&lt;/td&gt;
+&lt;td&gt;
+(0.052)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Number of Previous Hearings
+&lt;/td&gt;
+&lt;td&gt;
+0.007&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+0.006&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+0.006&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+0.007&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+0.007&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+(0.00002)
+&lt;/td&gt;
+&lt;td&gt;
+(0.002)
+&lt;/td&gt;
+&lt;td&gt;
+(0.002)
+&lt;/td&gt;
+&lt;td&gt;
+(0.00002)
+&lt;/td&gt;
+&lt;td&gt;
+(0.002)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Miscellenous Day
+&lt;/td&gt;
+&lt;td&gt;
+-0.672&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+-0.322&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+-0.331&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+(0.001)
+&lt;/td&gt;
+&lt;td&gt;
+(0.069)
+&lt;/td&gt;
+&lt;td&gt;
+(0.069)
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Constant
+&lt;/td&gt;
+&lt;td&gt;
+6.014&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+-0.575&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+-0.640&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+5.550&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;td&gt;
+-0.852&lt;sup&gt;***&lt;/sup&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+(0.001)
+&lt;/td&gt;
+&lt;td&gt;
+(0.072)
+&lt;/td&gt;
+&lt;td&gt;
+(0.075)
+&lt;/td&gt;
+&lt;td&gt;
+(0.001)
+&lt;/td&gt;
+&lt;td&gt;
+(0.040)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;6&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Observations
+&lt;/td&gt;
+&lt;td&gt;
+16,564
+&lt;/td&gt;
+&lt;td&gt;
+8,109
+&lt;/td&gt;
+&lt;td&gt;
+8,109
+&lt;/td&gt;
+&lt;td&gt;
+17,029
+&lt;/td&gt;
+&lt;td&gt;
+9,826
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Log Likelihood
+&lt;/td&gt;
+&lt;td&gt;
+-7,671,316.000
+&lt;/td&gt;
+&lt;td&gt;
+-5,047.505
+&lt;/td&gt;
+&lt;td&gt;
+-5,044.136
+&lt;/td&gt;
+&lt;td&gt;
+-7,468,741.000
+&lt;/td&gt;
+&lt;td&gt;
+-6,048.497
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Akaike Inf. Crit.
+&lt;/td&gt;
+&lt;td&gt;
+15,342,640.000
+&lt;/td&gt;
+&lt;td&gt;
+10,103.010
+&lt;/td&gt;
+&lt;td&gt;
+10,096.270
+&lt;/td&gt;
+&lt;td&gt;
+14,937,494.000
+&lt;/td&gt;
+&lt;td&gt;
+12,109.000
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;6&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+&lt;em&gt;Note:&lt;/em&gt;
+&lt;/td&gt;
+&lt;td colspan=&#34;5&#34; style=&#34;text-align:right&#34;&gt;
+&lt;sup&gt;&lt;em&gt;&lt;/sup&gt;p&amp;lt;0.1; &lt;sup&gt;&lt;strong&gt;&lt;/sup&gt;p&amp;lt;0.05; &lt;sup&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/sup&gt;p&amp;lt;0.01
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;The number of previous hearings in the case is also a significant predictor of whether a petitioner wins a case. The probability that a petitioner will win increases with each effective hearing of the case. This conforms to our intuition about the admission process in the SCI. As &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3537307&#34;&gt;Khaitan(2020)&lt;/a&gt; and &lt;a href=&#34;https://doi.org/10.1080/24730580.2017.1405583&#34;&gt;Chandra, Hubbard and Kalantry(2017)&lt;/a&gt; have pointed out, the court issues notice and grants leave to a limited number of petitions based on the chance that the petition will succeed. It is not a surprise then, that the further down the petition is in the litigation cycle, the more likely the chance that it will succeed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;day-of-the-week-fatigue&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Day of the Week Fatigue&lt;/h2&gt;
+&lt;p&gt;I also looked at whether the day of the week in which the matter was heard affects either efficiency or decision-making. We would expect that the court allocates more time to cases on regular days and would also expect that petitioners are more likely to win on regular days.Depletion theory would also predict that the court is likely to be more fatigued when hearing cases on Monday, than on Friday where the judges are presumably fatigued from the work that happened during the week. Thus, judges should take more time to decide cases and be more likely to decide cases on Fridays than on Mondays.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-7&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;http://rahul.uofsccreate.org/post/judges-lunch/index_files/figure-html/unnamed-chunk-7-1.png&#34; alt=&#34;Average Hearing Time by Day of the Week&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Average Hearing Time by Day of the Week
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Like with the time of the day analysis, I find no evidence of any difference in win rates between the two miscellaneous days. However, as the figure 4 shows there is a significant differences between the hearing time across days. Contrary to the fatigue hypothesis, cases on Mondays, on average, are heard longer than cases on Fridays(Table 1). There is also a difference between the average hearing time on regular days. I don’t know whether this is representative of some difference in listing practices. The relationship remains significant on the addition of controls for subject matter and stage of hearing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;discussion-and-further-work&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Discussion and Further Work&lt;/h2&gt;
+&lt;p&gt;We find that while efficiency (the time it takes for completing a hearing) may change based on the time of the day as well as the day of the week, decision-making in the court remains unaffected by fatigue. There may be a few reasons for these results. First, unlike the Israeli parole board, judges of the SCI have the discretion to simply adjourn or pass-over the case. When they are fatigued, it is possible that judges intentionally adjourn cases that they believe will take more effort and time. Second, we only tested a limited timeline, and did not control for judge-level effects. It is possible that some judges thrive under the high workload while others are pressured by it. Third, fatigue might have indirect effects- for e.g. the court might dictate orders of lower quality when under pressure. I hope to examine a few of these questions in future posts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;It is also possible to theorize the opposite hypothesis– judges may take less time for each case when fatigued, since they would like to default to status-quo.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;For the efficiency model, I use poisson regression to regress time heard with time of the day. For the decision model, I use logit regression to regress winner(1 for petitioner,0 for other) with time of the day. In each case, the number of prior hearings in the case as well as a dichotomous variable for whether the case was heard on a miscellaneous day.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

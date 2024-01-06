@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: http://rahul.uofsccreate.org/sitemap.xml

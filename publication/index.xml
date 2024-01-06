@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Rahul Hemrajani</title>
+    <link>http://rahul.uofsccreate.org/publication/</link>
+      <atom:link href="http://rahul.uofsccreate.org/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Rahul Hemrajani</copyright><lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://rahul.uofsccreate.org/media/icon_hua4eb1ffa662c5bc0224b00a03de6025c_50829_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>http://rahul.uofsccreate.org/publication/</link>
+    </image>
+    
+    <item>
+      <title>Preventive repression: Protest policing in New Delhi</title>
+      <link>http://rahul.uofsccreate.org/publication/protests/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://rahul.uofsccreate.org/publication/protests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Effects of Source Cues and Issue Frames During COVID-19</title>
+      <link>http://rahul.uofsccreate.org/publication/source-cues/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://rahul.uofsccreate.org/publication/source-cues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Empty Court : A Quantitative Analysis of Vacancies in the Supreme Court of India</title>
+      <link>http://rahul.uofsccreate.org/publication/vacancies/</link>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://rahul.uofsccreate.org/publication/vacancies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A temporal analysis of the Supreme Court of India’s workload</title>
+      <link>http://rahul.uofsccreate.org/publication/temporal-analysis/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://rahul.uofsccreate.org/publication/temporal-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concentric Clientelism: A Case Study of Rural Saharanpur</title>
+      <link>http://rahul.uofsccreate.org/publication/clientalism/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://rahul.uofsccreate.org/publication/clientalism/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
