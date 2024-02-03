@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Judicial Behaviour | Rahul Hemrajani</title>
+    <link>http://rahul.uofsccreate.org/tag/judicial-behaviour/</link>
+      <atom:link href="http://rahul.uofsccreate.org/tag/judicial-behaviour/index.xml" rel="self" type="application/rss+xml" />
+    <description>Judicial Behaviour</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Rahul Hemrajani</copyright><lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://rahul.uofsccreate.org/media/icon_hua4eb1ffa662c5bc0224b00a03de6025c_50829_512x512_fill_lanczos_center_3.png</url>
+      <title>Judicial Behaviour</title>
+      <link>http://rahul.uofsccreate.org/tag/judicial-behaviour/</link>
+    </image>
+    
+    <item>
+      <title>The Effects of Decision Fatigue on Judicial Behavior: A Study of Arkansas Traffic Court Outcomes</title>
+      <link>http://rahul.uofsccreate.org/publication/fatigue/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://rahul.uofsccreate.org/publication/fatigue/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
