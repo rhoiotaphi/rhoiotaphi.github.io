@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Rahul Hemrajani</title>
-    <link>http://rahul.uofsccreate.org/post/</link>
-      <atom:link href="http://rahul.uofsccreate.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rahulh.com/post/</link>
+      <atom:link href="https://rahulh.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Rahul Hemrajani</copyright><lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://rahul.uofsccreate.org/media/icon_hua4eb1ffa662c5bc0224b00a03de6025c_50829_512x512_fill_lanczos_center_3.png</url>
+      <url>https://rahulh.com/media/icon_hua4eb1ffa662c5bc0224b00a03de6025c_50829_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>http://rahul.uofsccreate.org/post/</link>
+      <link>https://rahulh.com/post/</link>
     </image>
     
     <item>
       <title>Determining the Criteria for Appointment of Judges to the Supreme Court of India</title>
-      <link>http://rahul.uofsccreate.org/post/collegeum-transperancy/</link>
+      <link>https://rahulh.com/post/collegeum-transperancy/</link>
       <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://rahul.uofsccreate.org/post/collegeum-transperancy/</guid>
+      <guid>https://rahulh.com/post/collegeum-transperancy/</guid>
       <description>
-&lt;script src=&#34;http://rahul.uofsccreate.org/post/collegeum-transperancy/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://rahulh.com/post/collegeum-transperancy/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;On 17th August 2021, the collegium &lt;a href=&#34;https://main.sci.gov.in/pdf/Collegium/18082021_133400.pdf&#34;&gt;recommended the names of 9 new judges&lt;/a&gt; for the Supreme Court of India (SCI) to the government. Many &lt;a href=&#34;https://www.jurist.org/news/2021/08/india-dispatches-3-women-recommended-for-elevation-to-indias-supreme-court/&#34;&gt;hailed the recommendation&lt;/a&gt;, which proposes the name of 3 women judges, as a historic step towards gender equality in the Court. Others have criticized the decision for not including the name of Chief Justice Akil Kureshi, alleging that the &lt;a href=&#34;https://www.thequint.com/voices/opinion/justice-kureshis-exclusion-from-sc-collegium-list-sends-a-message-be-afraid&#34;&gt;collegium had given in to government pressure&lt;/a&gt;. Both camps, however, were basing their conclusions on conjecture. We neither &lt;em&gt;know&lt;/em&gt; whether the court had gender in mind while selecting the list nor do we &lt;em&gt;know&lt;/em&gt; whether Justice Kureshi was not selected due to government pressure. Since the SCI collegium does not give public reasons for its recommendations, &lt;a href=&#34;https://www.epw.in/engage/article/collegium-system-indian-judiciary-needs-be&#34;&gt;we simply do not know&lt;/a&gt; the criteria that the SCI uses to appoint judges.&lt;/p&gt;
@@ -36,14 +36,14 @@
 &lt;p&gt;The resolutions for the Supreme Court appointments were unfortunately not as detailed. The only clear criteria expressly considered for SCI appointment was the all-india seniority rank of the judge as well the parent high court. Other than this the resolutions simply stated that the collegium had simply stated that it had taken into consideration “all relevant factors”. The SC appointment resolutions also did not contain information about the candidates considered and rejected.&lt;/p&gt;
 &lt;p&gt;The publication of these detailed resolutions, however, did not last long. Soon after the resolutions started being published, &lt;a href=&#34;https://www.barandbench.com/news/lokur-joseph-collegium-resolutions&#34;&gt;letters from Justice Lokur and Justice Joseph&lt;/a&gt;, two members of the collegium, were leaked to the press. Justice Joseph’s letter expressed concern about listing specific reasons for the rejecting candidates, arguing that the information may “violate human rights of some persons”. After this leak and presumably after discussions with collegium members, the uploaded resolutions stopped containing specific reasons for the rejection of particular candidates. When a candidate was to be rejected, the resolutions now simply stated they were rejected due to “material available on record”.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-3&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://rahul.uofsccreate.org/post/collegeum-transperancy/index_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;Missingness Map of SCI collegium Resolutions for Appointment of High Court Judges&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://rahulh.com/post/collegeum-transperancy/index_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;Missingness Map of SCI collegium Resolutions for Appointment of High Court Judges&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Missingness Map of SCI collegium Resolutions for Appointment of High Court Judges
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;To understand the criteria discussed in each of these resolutions, I built a dataset of all collegium resolutions till April 2020&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. Figure 1 maps changes in the criteria and information given in all collegium resolutions for the appointment of High Court judges. As can be seen, the court gradually stopped giving us information about selection criteria and eventually stopped giving information about each individual candidate altogether. Figure 2 shows the the decline in the number of information points available in each resolution. Within a span of 2 years, the moved from a high of giving 25 information points in each resolution to a low of only 5. The final blow to these detailed resolutions came when a particular collegium decision to transfer Chief Justice Tahilramani and Justice Akil Kureshi &lt;a href=&#34;https://www.thehindu.com/opinion/op-ed/justice-tahilramani-an-arbitrary-transfer-a-graceful-resignation/article29368826.ece&#34;&gt;was discussed and critiqued in the media&lt;/a&gt;. The resolution stated that the transfer was required, &lt;a href=&#34;https://main.sci.gov.in/pdf/Collegium/1.%202019.08.28-Tr.-CJ%20VK%20Tahilramani.pdf&#34;&gt;“in the interest of better administration of justice&lt;/a&gt;, a phrase that had also been used in all prior resolutions recommending transfers. After the heightened media scrutiny questioning the reasons for the transfer, the court released a statement, stating that the decision was made due to &lt;a href=&#34;https://main.sci.gov.in/pdf/Collegium/Statement_12092019.pdf&#34;&gt;“cogent reasons”&lt;/a&gt; and &lt;a href=&#34;https://main.sci.gov.in/pdf/Collegium/Statement_12092019.pdf&#34;&gt;“it would not be in the interest of the institution to disclose the reasons for transfer”&lt;/a&gt;. Since then the court has chosen to publish only &lt;a href=&#34;https://www.barandbench.com/news/from-resolutions-to-statements-supreme-court-collegium-publishes-appointment-details-without-reasons&#34;&gt;“statements” instead of resolutions&lt;/a&gt;, which now only have the names of recommended candidates. It would seem then that the increased public scrutiny and criticism of its decisions, forced the court to revisit its initial move towards transparency. Whenever the court faced a public challenge to its appointment decisions, its response has been to hide how that decision was made. This, as Kumar puts it, &lt;a href=&#34;https://www.firstpost.com/india/supreme-court-stops-uploading-collegium-resolutions-on-website-move-is-major-self-inflicted-wound-smacks-of-institutional-cowardice-7536991.html&#34;&gt;“ smacks of institutional cowardice”&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-4&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://rahul.uofsccreate.org/post/collegeum-transperancy/index_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Number of Information Points  in SCI collegium Resolutions for Appointment of High Court Judges &#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://rahulh.com/post/collegeum-transperancy/index_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Number of Information Points  in SCI collegium Resolutions for Appointment of High Court Judges &#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 2: Number of Information Points in SCI collegium Resolutions for Appointment of High Court Judges
 &lt;/p&gt;
@@ -63,11 +63,11 @@ Figure 2: Number of Information Points in SCI collegium Resolutions for Appointm
     
     <item>
       <title>The Need for an Institutional History of the Supreme Court of India: Three Examples from the Early Court</title>
-      <link>http://rahul.uofsccreate.org/post/early-supreme-court/</link>
+      <link>https://rahulh.com/post/early-supreme-court/</link>
       <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://rahul.uofsccreate.org/post/early-supreme-court/</guid>
+      <guid>https://rahulh.com/post/early-supreme-court/</guid>
       <description>
-&lt;script src=&#34;http://rahul.uofsccreate.org/post/early-supreme-court/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://rahulh.com/post/early-supreme-court/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;One of my projects involves building a dataset of all reported decisions of the Supreme Court of India (SCI). A problem that I consistently encounter in my analysis is the lack of any record of the institutional history of the SCI. Gadbois’s classics on &lt;a href=&#34;https://global.oup.com/academic/product/supreme-court-of-india-9780199472161?cc=us&amp;amp;lang=en&amp;amp;&#34;&gt;the history of the federal court&lt;/a&gt; and on &lt;a href=&#34;https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198070610.001.0001/acprof-9780198070610&#34;&gt;the judges of the Supreme Court&lt;/a&gt; gives us some anecdotal information on some court procedure but is limited by time-period. &lt;a href=&#34;https://penguin.co.in/book/supreme-whispers/&#34;&gt;Abhinav Chandrachud’s Supreme whispers&lt;/a&gt; (also based on Gadbois’ interviews), similarly has anecdotal information about how the court functioned, but even this is mostly eclectic and sparse. There seems to be nothing, on the lines of &lt;a href=&#34;https://www.hup.harvard.edu/catalog.php?isbn=9780674194434&#34;&gt;Perry’s classic work on the U.S. Supreme Court&lt;/a&gt;, that builds a historical account of how institutional rules and conventions in the SCI have changed throughout history.&lt;/p&gt;
@@ -85,7 +85,7 @@ Figure 2: Number of Information Points in SCI collegium Resolutions for Appointm
 &lt;p&gt;We also do not seem to know why a panel of a particular size was formed in a given case. Beyond the constitutional norm of 5 judge panels for &lt;a href=&#34;https://lawandotherthings.com/2014/01/the-substantial-question-question/&#34;&gt;“Substantial questions in the interpretation of the constitution”&lt;/a&gt;, and &lt;a href=&#34;https://main.sci.gov.in/supreme-court-rules-2013&#34;&gt;current rules&lt;/a&gt; mandating certain cases to be heard by atleast 3 judges, we do not know the norms governing panel size. Obviously, one would need a larger panel to overrule a previous decision of a smaller one, but it is unclear what triggers the formation of this larger panel. Presumably, &lt;a href=&#34;https://www.scobserver.in/court-explained?court_procedure=Benches%20of%20the%20Supreme%20Court&#34;&gt;a case is listed before the larger panel, if a smaller panel recommends it&lt;/a&gt;, but this is not always the case. For example, in the Sabrimala review case was listed directly before a 9 judge bench, &lt;a href=&#34;https://indconlawphil.wordpress.com/2020/01/14/the-curious-continuing-afterlife-of-the-sabarimala-review/&#34;&gt;without a reference from the smaller bench&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Beyond the division bench (two judge bench), the SCI currently sits only in odd-sized panels–3,5,7,9,11 or &lt;a href=&#34;https://indiankanoon.org/doc/257876/?__cf_chl_jschl_tk__=pmd_5cfa962004c5ef76b1ef039c92d8c1ca91120a4c-1628384196-0-gqNtZGzNAg2jcnBszQk6&#34;&gt;in one case&lt;/a&gt; a bench of 13 judges. The reason is obvious: an odd-sized bench ensures that there is no possibility of a judicial tie and consequently guarantees a resolution of the issue by a majority of the judges&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Odd-number panel formation is a gridlock prevention mechanism. However, when I printed a graph of the bench sizes in the first decade of the court, I found that we had benches of 4, 6, and even 8 judges.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:plotjudges&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://rahul.uofsccreate.org/post/early-supreme-court/index_files/figure-html/plotjudges-1.png&#34; alt=&#34;Panel Size in the SCI from 1950-1959&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://rahulh.com/post/early-supreme-court/index_files/figure-html/plotjudges-1.png&#34; alt=&#34;Panel Size in the SCI from 1950-1959&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Panel Size in the SCI from 1950-1959
 &lt;/p&gt;
@@ -117,11 +117,11 @@ Figure 1: Panel Size in the SCI from 1950-1959
     
     <item>
       <title>Does fatigue affect decision-making and efficiency at the Supreme Court of India?</title>
-      <link>http://rahul.uofsccreate.org/post/judges-lunch/</link>
+      <link>https://rahulh.com/post/judges-lunch/</link>
       <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://rahul.uofsccreate.org/post/judges-lunch/</guid>
+      <guid>https://rahulh.com/post/judges-lunch/</guid>
       <description>
-&lt;script src=&#34;http://rahul.uofsccreate.org/post/judges-lunch/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://rahulh.com/post/judges-lunch/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;One of the most famous studies in judicial politics is &lt;a href=&#34;https://doi.org/10.1073/pnas.1018033108&#34;&gt;Danziger, Levav, and Avnaim-Pesso’s work&lt;/a&gt; on the Israeli Parole board. The study concluded that food breaks affected the way that Israeli judges granted parole. Specifically, it found that the rate of granting parole drops gradually from 65% to nearly 0% for each session of the court and returns to 65% after the judges have had their break. The study suggests that this decrease can be attributed to either altered mood or mental depletion, with judges who were getting more tired and hungry taking the status quo option of not granting parole. The study has been challenged inter-alia for &lt;a href=&#34;https://doi.org/10.1073/pnas.1110910108&#34;&gt;selection bias&lt;/a&gt; and &lt;a href=&#34;https://www.sas.upenn.edu/~baron/journal/16/16823/jdm16823.pdf&#34;&gt;overestimating effect sizes&lt;/a&gt; but remains highly influential.&lt;/p&gt;
@@ -135,21 +135,21 @@ Figure 1: Panel Size in the SCI from 1950-1959
 &lt;div id=&#34;results&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Results&lt;/h2&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-3&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://rahul.uofsccreate.org/post/judges-lunch/index_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;Oral Hearing Time in Miscellenous Days&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://rahulh.com/post/judges-lunch/index_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;Oral Hearing Time in Miscellenous Days&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Oral Hearing Time in Miscellenous Days
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;I find that oral hearing time allocated to a case is positively related to the time at which the case was heard (Table 1). As Figure 1 shows, average hearing time on miscellaneous days increases as the day goes on. It would seem then that as more cases are heard, the court becomes less efficient and takes more time to decide each individual case. As the marginal effects plot(Figure 2) shows,based on my model, a case heard when the court convenes at 10:30 am takes around 5 minutes of hearing time, while a case at the same stage of hearing at 4:00 pm takes 12 minutes, a 140% increase.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-4&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://rahul.uofsccreate.org/post/judges-lunch/index_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Marginal Effect of Time of the Day on Hearing Time&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://rahulh.com/post/judges-lunch/index_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Marginal Effect of Time of the Day on Hearing Time&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 2: Marginal Effect of Time of the Day on Hearing Time
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;On the other hand, I find no evidence that decision making is affected by fatigue (Table 1). There is no statistically significant relationship between the time the case is heard and the winner of the case. As Figure 3 shows, the running average of a SLP succeeding in SC remains constant at around 31% at all times of the day on a miscellaneous day. I thus find no evidence that the SCI are more likely to choose the status quo option and dismiss petitions when they are tired.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-5&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://rahul.uofsccreate.org/post/judges-lunch/index_files/figure-html/unnamed-chunk-5-1.png&#34; alt=&#34;Average Probability of Win on Miscellenous Days&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://rahulh.com/post/judges-lunch/index_files/figure-html/unnamed-chunk-5-1.png&#34; alt=&#34;Average Probability of Win on Miscellenous Days&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 3: Average Probability of Win on Miscellenous Days
 &lt;/p&gt;
@@ -749,7 +749,7 @@ Akaike Inf. Crit.
 &lt;h2&gt;Day of the Week Fatigue&lt;/h2&gt;
 &lt;p&gt;I also looked at whether the day of the week in which the matter was heard affects either efficiency or decision-making. We would expect that the court allocates more time to cases on regular days and would also expect that petitioners are more likely to win on regular days.Depletion theory would also predict that the court is likely to be more fatigued when hearing cases on Monday, than on Friday where the judges are presumably fatigued from the work that happened during the week. Thus, judges should take more time to decide cases and be more likely to decide cases on Fridays than on Mondays.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-7&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://rahul.uofsccreate.org/post/judges-lunch/index_files/figure-html/unnamed-chunk-7-1.png&#34; alt=&#34;Average Hearing Time by Day of the Week&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://rahulh.com/post/judges-lunch/index_files/figure-html/unnamed-chunk-7-1.png&#34; alt=&#34;Average Hearing Time by Day of the Week&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 4: Average Hearing Time by Day of the Week
 &lt;/p&gt;

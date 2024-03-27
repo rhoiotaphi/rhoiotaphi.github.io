@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>History | Rahul Hemrajani</title>
-    <link>http://rahul.uofsccreate.org/tag/history/</link>
-      <atom:link href="http://rahul.uofsccreate.org/tag/history/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rahulh.com/tag/history/</link>
+      <atom:link href="https://rahulh.com/tag/history/index.xml" rel="self" type="application/rss+xml" />
     <description>History</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Rahul Hemrajani</copyright><lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://rahul.uofsccreate.org/media/icon_hua4eb1ffa662c5bc0224b00a03de6025c_50829_512x512_fill_lanczos_center_3.png</url>
+      <url>https://rahulh.com/media/icon_hua4eb1ffa662c5bc0224b00a03de6025c_50829_512x512_fill_lanczos_center_3.png</url>
       <title>History</title>
-      <link>http://rahul.uofsccreate.org/tag/history/</link>
+      <link>https://rahulh.com/tag/history/</link>
     </image>
     
     <item>
       <title>The Need for an Institutional History of the Supreme Court of India: Three Examples from the Early Court</title>
-      <link>http://rahul.uofsccreate.org/post/early-supreme-court/</link>
+      <link>https://rahulh.com/post/early-supreme-court/</link>
       <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://rahul.uofsccreate.org/post/early-supreme-court/</guid>
+      <guid>https://rahulh.com/post/early-supreme-court/</guid>
       <description>
-&lt;script src=&#34;http://rahul.uofsccreate.org/post/early-supreme-court/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://rahulh.com/post/early-supreme-court/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;One of my projects involves building a dataset of all reported decisions of the Supreme Court of India (SCI). A problem that I consistently encounter in my analysis is the lack of any record of the institutional history of the SCI. Gadbois’s classics on &lt;a href=&#34;https://global.oup.com/academic/product/supreme-court-of-india-9780199472161?cc=us&amp;amp;lang=en&amp;amp;&#34;&gt;the history of the federal court&lt;/a&gt; and on &lt;a href=&#34;https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198070610.001.0001/acprof-9780198070610&#34;&gt;the judges of the Supreme Court&lt;/a&gt; gives us some anecdotal information on some court procedure but is limited by time-period. &lt;a href=&#34;https://penguin.co.in/book/supreme-whispers/&#34;&gt;Abhinav Chandrachud’s Supreme whispers&lt;/a&gt; (also based on Gadbois’ interviews), similarly has anecdotal information about how the court functioned, but even this is mostly eclectic and sparse. There seems to be nothing, on the lines of &lt;a href=&#34;https://www.hup.harvard.edu/catalog.php?isbn=9780674194434&#34;&gt;Perry’s classic work on the U.S. Supreme Court&lt;/a&gt;, that builds a historical account of how institutional rules and conventions in the SCI have changed throughout history.&lt;/p&gt;
@@ -36,7 +36,7 @@
 &lt;p&gt;We also do not seem to know why a panel of a particular size was formed in a given case. Beyond the constitutional norm of 5 judge panels for &lt;a href=&#34;https://lawandotherthings.com/2014/01/the-substantial-question-question/&#34;&gt;“Substantial questions in the interpretation of the constitution”&lt;/a&gt;, and &lt;a href=&#34;https://main.sci.gov.in/supreme-court-rules-2013&#34;&gt;current rules&lt;/a&gt; mandating certain cases to be heard by atleast 3 judges, we do not know the norms governing panel size. Obviously, one would need a larger panel to overrule a previous decision of a smaller one, but it is unclear what triggers the formation of this larger panel. Presumably, &lt;a href=&#34;https://www.scobserver.in/court-explained?court_procedure=Benches%20of%20the%20Supreme%20Court&#34;&gt;a case is listed before the larger panel, if a smaller panel recommends it&lt;/a&gt;, but this is not always the case. For example, in the Sabrimala review case was listed directly before a 9 judge bench, &lt;a href=&#34;https://indconlawphil.wordpress.com/2020/01/14/the-curious-continuing-afterlife-of-the-sabarimala-review/&#34;&gt;without a reference from the smaller bench&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Beyond the division bench (two judge bench), the SCI currently sits only in odd-sized panels–3,5,7,9,11 or &lt;a href=&#34;https://indiankanoon.org/doc/257876/?__cf_chl_jschl_tk__=pmd_5cfa962004c5ef76b1ef039c92d8c1ca91120a4c-1628384196-0-gqNtZGzNAg2jcnBszQk6&#34;&gt;in one case&lt;/a&gt; a bench of 13 judges. The reason is obvious: an odd-sized bench ensures that there is no possibility of a judicial tie and consequently guarantees a resolution of the issue by a majority of the judges&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Odd-number panel formation is a gridlock prevention mechanism. However, when I printed a graph of the bench sizes in the first decade of the court, I found that we had benches of 4, 6, and even 8 judges.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:plotjudges&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://rahul.uofsccreate.org/post/early-supreme-court/index_files/figure-html/plotjudges-1.png&#34; alt=&#34;Panel Size in the SCI from 1950-1959&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://rahulh.com/post/early-supreme-court/index_files/figure-html/plotjudges-1.png&#34; alt=&#34;Panel Size in the SCI from 1950-1959&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Panel Size in the SCI from 1950-1959
 &lt;/p&gt;
